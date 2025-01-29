@@ -1,19 +1,25 @@
-Skrip Manajemen Server OpenVPN adalah alat baris perintah yang kuat dan ramah pengguna yang dirancang untuk menyederhanakan pengelolaan server OpenVPN. Apakah Anda sedang mengatur server OpenVPN baru, mengelola konfigurasi yang ada, atau menangani sertifikat klien, skrip ini memperlancar proses dengan perintah yang intuitif dan otomatisasi.
+**OpenVPN Server Management Script** is a powerful and user-friendly command-line tool designed to simplify the management of OpenVPN servers. Whether you're setting up a new OpenVPN server, managing existing configurations, or handling client certificates, this script streamlines the process with intuitive commands and automation.
 
-Fitur Utama:
+**Key Features:**
 
-Pengaturan Server yang Mudah: Konfigurasikan dan terapkan server OpenVPN dengan cepat dan minimal usaha. Manajemen Klien: Hasilkan, cabut, dan kelola sertifikat klien dengan mudah. Pembaruan Konfigurasi: Modifikasi pengaturan server dan dorong pembaruan dengan mulus. Cadangan & Pemulihan: Lindungi konfigurasi OpenVPN Anda dengan opsi cadangan dan pemulihan otomatis. Dukungan Lintas Platform: Kompatibel dengan sistem berbasis Linux di mana OpenVPN biasanya diterapkan. Skrip ini ideal untuk administrator sistem, insinyur DevOps, atau siapa saja yang ingin mengelola server OpenVPN secara efisien tanpa terjun ke dalam konfigurasi manual yang kompleks. Kontribusi, umpan balik, dan permintaan fitur sangat diterima untuk membuat alat ini semakin kuat dan serbaguna.
+- **Easy Server Setup:** Configure and deploy an OpenVPN server quickly with minimal effort.  
+- **Client Management:** Generate, revoke, and manage client certificates effortlessly.  
+- **Configuration Updates:** Modify server settings and push updates seamlessly.  
+- **Backup & Recovery:** Protect your OpenVPN configurations with automated backup and recovery options.  
+- **Cross-Platform Support:** Compatible with Linux-based systems where OpenVPN is typically deployed.  
 
-Mulai:
-- Kloning repositori
-- Berikan hak akses eksekusi: chmod +x openvpn-manager.sh
-- Jalankan dengan perintah root/sudo
+This script is ideal for system administrators, DevOps engineers, or anyone looking to efficiently manage OpenVPN servers without diving into complex manual configurations. Contributions, feedback, and feature requests are highly encouraged to make this tool even more robust and versatile.
 
-Fitur yang tersedia:
-- Instal Server OpenVPN: sudo ./openvpn-manager.sh install
-- Tambah klien baru: sudo ./openvpn-manager.sh add nama_klien
-- Hapus klien: sudo ./openvpn-manager.sh remove nama_klien
-- Daftar klien terdaftar: sudo ./openvpn-manager.sh list
-- Uninstall OpenVPN: sudo ./openvpn-manager.sh uninstall
-  
-Tag: OpenVPN, Manajemen VPN, Otomatisasi Server, DevOps, Jaringan, Keamanan, Skrip Bash
+**Getting Started:**  
+- Clone the repository.  
+- Grant execution permissions: `chmod +x openvpn-manager.sh`  
+- Run with root/sudo privileges.  
+
+**Available Features:**  
+- Install OpenVPN Server: `sudo ./openvpn-manager.sh install`  
+- Add a new client: `sudo ./openvpn-manager.sh add client_name`  
+- Remove a client: `sudo ./openvpn-manager.sh remove client_name`  
+- List registered clients: `sudo ./openvpn-manager.sh list`  
+- Uninstall OpenVPN: `sudo ./openvpn-manager.sh uninstall`  
+
+**Tags:** OpenVPN, VPN Management, Server Automation, DevOps, Networking, Security, Bash Script
